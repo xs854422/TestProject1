@@ -42,11 +42,11 @@ def get_group(id):
 
 
 
-# resp_dict={'msg_type':'private','number':QQ号,'msg':'你好'}
+# resp_dict={'msg_type':'private','number':"qq号",'msg':'你好'}
 
-resp_dict={'msg_type': 'group', 'number': 554200909, 'msg': '哦哦哦'}
+# resp_dict={'msg_type': 'group', 'number':"群号", 'msg': '哦哦哦'}
 
-send_msg(resp_dict),
+send_msg(resp_dict)
 
 
 
